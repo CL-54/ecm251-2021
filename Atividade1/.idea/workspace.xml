@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b9e52f-1fc0-45d8-80f1-73c69284d5f8" name="Default Changelist" comment="" />
+    <list default="true" id="fe6c6665-de3d-4333-8256-d2624092ec0b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1pvkEFFUUE9lV58zbKSkOthRRga" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1qGp1mYEhRPMpx9xoK2YNYHNagd" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -81,7 +80,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Caceres.Marques.Marcel.Main" />
-      <module name="Aula05-Teoria" />
+      <module name="Atividade1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -93,24 +92,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8b9e52f-1fc0-45d8-80f1-73c69284d5f8" name="Default Changelist" comment="" />
-      <created>1616070840714</created>
+      <changelist id="fe6c6665-de3d-4333-8256-d2624092ec0b" name="Default Changelist" comment="" />
+      <created>1616715567698</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616070840714</updated>
+      <updated>1616715567698</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
