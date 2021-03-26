@@ -7,6 +7,7 @@ public class Sistema {
     private boolean executarSistema;
     private Scanner scanner;
     private Conta conta;
+    private double jurosDaConta;
 
     public void executar(){
         int opcao;
