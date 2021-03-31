@@ -4,13 +4,22 @@ public class Contas {
     //Atributos da classe Contas
     public String idConta;
     private double saldo;
+    public Usuarios usuario;
+
+    // cria construtor
+    public Contas(String idConta, double saldoInicial, String nome, String senha, String email) {
+        this.idConta = idConta;
+        this.saldo = saldoInicial;
+        this.usuario = new Usuarios(nome, senha, email);
+
+    }
 
     //Métodos da classe Contas
 
-    cria o id da conta
-    private int idConta(int id){
-        id = ncontas + 1
-    }
+    //cria o id da conta
+    //private int idConta(int id){
+        //id = ncontas + 1
+    //}
 
 
     //adiciona um valor ao saldo

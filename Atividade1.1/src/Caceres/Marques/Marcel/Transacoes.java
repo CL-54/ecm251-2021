@@ -5,8 +5,14 @@ import java.util.Random;
 
 
 public class Transacoes {
+    private int valor;
+
     //Métodos da Classe Transacoes
 
+
+    public Transacoes(int valor) {
+        this.valor = valor;
+    }
 
     //funçao para gerar um numero inteiro aleatório
     private static int getRandomNumberInRange(int min, int max) {
@@ -14,17 +20,11 @@ public class Transacoes {
         return r.nextInt((max - min) + 1) + min;
     }
 
-    //cria um codigo para uma transaçao
-    public static String Qrcode(){
+    //cria o Qrcode
+    public String Qrcode(Contas con1){
         int code = getRandomNumberInRange(1000, 9999);
-        String s= String.valueOf(code); // transforma o codigo em uma string
-        return s;
+        return ((con1.idConta) + ";" + (con1.usuario.nome) + ";" + valor + ";" + code);
     }
 
-
-    public String transacao(String idConta, String nome, String valor, String code){
-
-
-    }
 
 }
