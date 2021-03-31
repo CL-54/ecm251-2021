@@ -8,12 +8,23 @@ public class Transacoes {
     //Métodos da Classe Transacoes
 
 
-    //gera um numero inteiro aleatório para cada Conta
+    //funçao para gerar um numero inteiro aleatório
     private static int getRandomNumberInRange(int min, int max) {
         Random r = new Random();
         return r.nextInt((max - min) + 1) + min;
     }
 
-    private int
+    //cria um codigo para uma transaçao
+    public static String Qrcode(){
+        int code = getRandomNumberInRange(1000, 9999);
+        String s= String.valueOf(code); // transforma o codigo em uma string
+        return s;
+    }
+
+
+    public String transacao(String idConta, String nome, String valor, String code){
+
+
+    }
 
 }

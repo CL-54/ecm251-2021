@@ -29,7 +29,7 @@ public class Main {
 
 
 
-        u1.();
-        System.out.println(u1.idConta);
+
+        System.out.println("esse eh o codigo :" + t1.Qrcode());
     }
 }

@@ -7,6 +7,11 @@ public class Contas {
 
     //Métodos da classe Contas
 
+    cria o id da conta
+    private int idConta(int id){
+        id = ncontas + 1
+    }
+
 
     //adiciona um valor ao saldo
     public void depositar(double valor){
@@ -23,7 +28,7 @@ public class Contas {
         return false;
     }
 
-    //realiza um pagamento entre contas
+    //realiza uma adiçao ou subtraçao do saldo de uma conta
     public boolean transferirDinheiro(Contas destino, double valor){
         if(this.pagar(valor)){
             destino.depositar(valor);
@@ -32,6 +37,8 @@ public class Contas {
         return false;
 
     }
+
+
 
 }
 
