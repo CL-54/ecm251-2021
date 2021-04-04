@@ -7,6 +7,8 @@ import java.util.Random;
 public class Transacoes {
     private int valor;
 
+
+
     //Métodos da Classe Transacoes
 
 
@@ -21,10 +23,12 @@ public class Transacoes {
     }
 
     //cria o Qrcode
-    public String Qrcode(Contas con1){
+    public String Qrcode(Contas con){
         int code = getRandomNumberInRange(1000, 9999);
-        return ((con1.idConta) + ";" + (con1.usuario.nome) + ";" + valor + ";" + code);
+        return ((con.idConta) + ";" + (con.usuario.nome) + ";" + valor + ";" + code);
     }
+
+
 
 
 }

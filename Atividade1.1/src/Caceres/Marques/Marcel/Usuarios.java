@@ -4,7 +4,7 @@ package Caceres.Marques.Marcel;
 public class Usuarios {
     //Atributos da classe Usuarios
     public String nome;
-    public String senha;
+    private String senha;
     private String email;
 
     public Usuarios(String nome, String senha, String email) {

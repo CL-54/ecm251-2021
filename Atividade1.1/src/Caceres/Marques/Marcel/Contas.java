@@ -1,9 +1,10 @@
 //17.00648-0 Marcel Marques Caceres
 package Caceres.Marques.Marcel;
+
 public class Contas {
     //Atributos da classe Contas
     public String idConta;
-    private double saldo;
+    public double saldo;
     public Usuarios usuario;
 
     // cria construtor
@@ -16,10 +17,6 @@ public class Contas {
 
     //Métodos da classe Contas
 
-    //cria o id da conta
-    //private int idConta(int id){
-        //id = ncontas + 1
-    //}
 
 
     //adiciona um valor ao saldo
@@ -44,8 +41,20 @@ public class Contas {
             return true;
         }
         return false;
+    }
+
+    //funçao para realizar pagamento
+    public boolean pagamento(Contas paga, Contas recebe, String Qrcode){
+        String[] qr = Qrcode.split(";");
+        int valor = Integer.parseInt(qr[2]);
+        if(paga.pagar(valor)){
+            recebe.depositar(valor);
+            return true;
+        }
+        return false;
 
     }
+
 
 
 
