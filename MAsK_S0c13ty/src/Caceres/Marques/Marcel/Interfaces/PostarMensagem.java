@@ -1,8 +1,9 @@
 package Caceres.Marques.Marcel.Interfaces;
 
-public interface PostarMensagem {
+import Caceres.Marques.Marcel.Enums.HorarioSistema;
+import Caceres.Marques.Marcel.Enums.TipoMembro;
 
-    void membros();
-    void Postar();
-    void horario();
+public interface PostarMensagem  {
+
+    String Post(TipoMembro mem, HorarioSistema hor, String msg);
 }
